@@ -5,6 +5,6 @@ import React from "react"
 // }
 const Contact=()=>
 {
-  return (<div>Contact page</div>)
+  return (<div>Contact</div>)
 }
 export default Contact

@@ -5,6 +5,6 @@ import React from "react"
 // }
 const About=()=>
 {
-  return (<div>About page</div>)
+  return (<h1 className="text-success">About page</h1>)
 }
 export default About
