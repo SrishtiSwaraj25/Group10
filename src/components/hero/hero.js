@@ -8,12 +8,11 @@ const Hero=()=>
       <div class="col-10 col-sm-8 col-lg-6">
       <Image
             className="d-block mx-lg-auto img-fluid"
-<<<<<<< HEAD
+
             filename="1.png"
-=======
-            filename="1.png.png"
->>>>>>> 498a421cb9c1877cca804a18da61e51b8b788602
-            alt="1"
+
+            
+
           />
       </div>
       <div class="col-lg-6">
