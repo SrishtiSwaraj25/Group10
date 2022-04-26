@@ -1,63 +1,34 @@
-import React from "react"
-import {
-  Bootstrap,
-  Calendar3,
-  CpuFill,
-  GeoFill,
-  House,
-  Speedometer2,
-  Toggles2,
-  Tools,
-} from "react-bootstrap-icons"
+import React from "react";
+import { Basket2Fill, Display, DoorOpen, People } from "react-bootstrap-icons";
 
 const Items = [
   {
-    icon: <Bootstrap />,
-    title: "Bootstrap Title",
-    description: "Bootstrap description paragraph.",
+    icon: <Basket2Fill />,
+    title: "Takeaway",
+    description: "Same quality as the restaurant without the hassle!",
   },
   {
-    icon: <Calendar3 />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
+    icon: <DoorOpen />,
+    title: "Hostel Delivery",
+    description: "Delivery now at your doorstep!",
   },
-  
+
   {
-    icon: <CpuFill />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
-  },
-  {
-    icon: <GeoFill />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
+    icon: <People />,
+    title: "Minimum Human Interaction",
+    description: "Maximizing COVID-19 precautions!",
   },
   {
-    icon: <House />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
+    icon: <Display />,
+    title: "All Options Displayed",
+    description: "Just pick your favorite option & VOILA!!",
   },
-  {
-    icon: <Speedometer2 />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
-  },
-  {
-    icon: <Toggles2 />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
-  },
-  {
-    icon: <Tools />,
-    title: "Calender 3",
-    description: "Calender 3 Calender 3 Calender 3",
-  },
-]
+];
 
 const Features = () => {
   return (
     <div className="container px-4 py-5" id="icon-grid">
-      <h2 className="pb-2 border-bottom text-center">Features</h2>
+      <h2 style={{color:"orange"}} className="pb-2 border-bottom text-center ">Features</h2>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
         {Items.map((item, i) => {
           return (
@@ -74,11 +45,11 @@ const Features = () => {
                 <p>{item.description}</p>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

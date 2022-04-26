@@ -1,5 +1,5 @@
 import React from "react"
-import Team from "../components/team/team"
+import Team from "../components/faq/faq"
 import Features from "../components/features/features"
 import Hero from "../components/hero/hero"
 import Layout from "../components/layout/layout"
